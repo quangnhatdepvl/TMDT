@@ -4,6 +4,24 @@
      * {
       box-sizing: border-box;
     }
+    .mask-upload{
+      position: absolute;
+      top: 125%;
+      left: 120%;
+      transform: translate(-50%,-50%);
+      cursor: pointer;
+      padding: 15px 22px;
+      background:rgba(49, 47, 47, 0.205);
+      transition: all 1s;
+    }
+    #file-upload::-webkit-file-upload-button{
+      visibility: hidden;
+      outline: none;
+      border: none;
+    }
+    .profile-userpic:hover .mask-upload{
+      top: 80%;
+    }
     
     input[type=text], select, textarea {
       width: 100%;
@@ -280,9 +298,14 @@ min-height: 460px;
         <div class="container"> 
          <div class="row profile">        
           <div class="col-md-3">          
-           <div class="profile-sidebar">                          
-            <div class="profile-userpic">                 <img src="images/teacher-6.jpg" class="img-responsive" alt="Thông tin cá nhân">               
-            </div>                                            
+           <div class="profile-sidebar " style="display: flex;justify-content: center;align-items: center;flex-direction: column;">                          
+            <div class="profile-userpic" style="position: relative; top: 0;left: 0; overflow: hidden; width: 130px; height: 130px; border-radius: 100%; background-image: url(images/teacher-6.jpg);background-size: 100% 100%;"> 
+              <!-- <img  src="images/teacher-6.jpg" class="img-responsive" alt="Thông tin cá nhân"> -->
+              <div class="mask-upload" >
+                <input style="color: transparent; outline: transparent;" type="file" name="" id="file-upload">
+                <i class="fa fa-camera" aria-hidden="true" style="font-size: 30px; position: absolute; top: 20%; left: 15%; z-index: -1;"></i>
+              </div>
+            </div>                                          
             <div class="profile-usertitle">                   
              <div class="profile-usertitle-name">                     Quang Nhật                 </div>                  
              <div class="profile-usertitle-job">                      Web Developer                   </div>              
