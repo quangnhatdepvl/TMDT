@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_6bZ1sSpjEeuPgpCdv9L8mw" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_6bacwCpjEeuPgpCdv9L8mw" bindingContexts="_6bacySpjEeuPgpCdv9L8mw">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;SpringBootKhoaHocApplication.java&quot; tooltip=&quot;SpringBootKhoaHoc/src/main/java/com/example/demo/SpringBootKhoaHocApplication.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SpringBootKhoaHoc/src/main/java/com/example/demo/SpringBootKhoaHocApplication.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.m2e.editor.MavenPomEditor&quot; name=&quot;pom.xml&quot; tooltip=&quot;SpringBootKhoaHoc/pom.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SpringBootKhoaHoc/pom.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;SpringBootKhoaHocApplication.java&quot; tooltip=&quot;SpringBootKhoaHoc/src/main/java/com/example/demo/SpringBootKhoaHocApplication.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SpringBootKhoaHoc/src/main/java/com/example/demo/SpringBootKhoaHocApplication.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <children xsi:type="basic:TrimmedWindow" xmi:id="_6bacwCpjEeuPgpCdv9L8mw" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_6p0sMipjEeuPgpCdv9L8mw" label="%trimmedwindow.label.eclipseSDK" x="0" y="0" width="1024" height="768">
     <persistedState key="coolBarVisible" value="true"/>
@@ -80,8 +80,9 @@
           <tags>persp.newWizSC:org.eclipse.jpt.jpa.ui.wizard.newJpaProject</tags>
           <tags>persp.perspSC:org.eclipse.jpt.ui.jpaPerspective</tags>
           <tags>persp.actionSet:org.springsource.ide.eclipse.commons.launch.actionSet</tags>
-          <children xsi:type="basic:PartSashContainer" xmi:id="_60C_MSpjEeuPgpCdv9L8mw" selectedElement="_60C_NypjEeuPgpCdv9L8mw" horizontal="true">
+          <children xsi:type="basic:PartSashContainer" xmi:id="_60C_MSpjEeuPgpCdv9L8mw" selectedElement="_60C_MipjEeuPgpCdv9L8mw" horizontal="true">
             <children xsi:type="basic:PartStack" xmi:id="_60C_MipjEeuPgpCdv9L8mw" elementId="topLeft" containerData="2500" selectedElement="_60C_MypjEeuPgpCdv9L8mw">
+              <tags>active</tags>
               <children xsi:type="advanced:Placeholder" xmi:id="_60C_MypjEeuPgpCdv9L8mw" elementId="org.eclipse.ui.navigator.ProjectExplorer" ref="_6u29MCpjEeuPgpCdv9L8mw" closeable="true">
                 <tags>View</tags>
                 <tags>categoryTag:General</tags>
@@ -224,17 +225,20 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_6uw2kCpjEeuPgpCdv9L8mw" elementId="org.eclipse.ui.editorss" selectedElement="_6uw2kSpjEeuPgpCdv9L8mw">
-      <children xsi:type="basic:PartStack" xmi:id="_6uw2kSpjEeuPgpCdv9L8mw" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_FWCFUCpmEeuS6fQGbcde_A">
+      <children xsi:type="basic:PartStack" xmi:id="_6uw2kSpjEeuPgpCdv9L8mw" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_GTsiMCs8Eeuk_JkTotyWlw">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
-        <tags>active</tags>
         <children xsi:type="basic:Part" xmi:id="_FWCFUCpmEeuS6fQGbcde_A" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="SpringBootKhoaHocApplication.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;SpringBootKhoaHocApplication.java&quot; partName=&quot;SpringBootKhoaHocApplication.java&quot; title=&quot;SpringBootKhoaHocApplication.java&quot; tooltip=&quot;SpringBootKhoaHoc/src/main/java/com/example/demo/SpringBootKhoaHocApplication.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/SpringBootKhoaHoc/src/main/java/com/example/demo/SpringBootKhoaHocApplication.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;331&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;SpringBootKhoaHocApplication.java&quot; partName=&quot;SpringBootKhoaHocApplication.java&quot; title=&quot;SpringBootKhoaHocApplication.java&quot; tooltip=&quot;SpringBootKhoaHoc/src/main/java/com/example/demo/SpringBootKhoaHocApplication.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/SpringBootKhoaHoc/src/main/java/com/example/demo/SpringBootKhoaHocApplication.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;327&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
-          <tags>active</tags>
-          <tags>activeOnClose</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_GTsiMCs8Eeuk_JkTotyWlw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="SpringBootKhoaHoc/pom.xml" iconURI="platform:/plugin/org.eclipse.m2e.editor/icons/editor-pom.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.m2e.editor.MavenPomEditor&quot; name=&quot;pom.xml&quot; partName=&quot;SpringBootKhoaHoc/pom.xml&quot; title=&quot;SpringBootKhoaHoc/pom.xml&quot; tooltip=&quot;SpringBootKhoaHoc/pom.xml&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/SpringBootKhoaHoc/pom.xml&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+          <tags>org.eclipse.m2e.editor.MavenPomEditor</tags>
         </children>
       </children>
     </sharedElements>
@@ -244,6 +248,8 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;0&quot; currentWorkingSetName=&quot;Aggregate for window 1605789428069&quot; org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets=&quot;0&quot;>&#xD;&#xA;&lt;lastRecentlyUsedFilters/>&#xD;&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
+      <tags>active</tags>
+      <tags>activeOnClose</tags>
       <menus xmi:id="_656WoCpjEeuPgpCdv9L8mw" elementId="org.eclipse.ui.navigator.ProjectExplorer">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -396,7 +402,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_6rT58CpjEeuPgpCdv9L8mw" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_8yo9YCpkEeuS6fQGbcde_A" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_6b0s7CpjEeuPgpCdv9L8mw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_BPpZgCs8Eeuk_JkTotyWlw" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_6b0s7CpjEeuPgpCdv9L8mw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_6rT58SpjEeuPgpCdv9L8mw" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -409,7 +415,7 @@
         <tags>toolbarSeparator</tags>
         <children xsi:type="menu:ToolBarSeparator" xmi:id="_6rT59SpjEeuPgpCdv9L8mw" elementId="additions" toBeRendered="false"/>
       </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_FccPUCpmEeuS6fQGbcde_A" elementId="org.eclipse.ui.edit.text.actionSet.presentation">
+      <children xsi:type="menu:ToolBar" xmi:id="_FccPUCpmEeuS6fQGbcde_A" elementId="org.eclipse.ui.edit.text.actionSet.presentation" visible="false">
         <tags>Draggable</tags>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_61VYoCpjEeuPgpCdv9L8mw" elementId="org.eclipse.debug.ui.launchActionSet">
@@ -433,7 +439,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_6rUhASpjEeuPgpCdv9L8mw" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_8yrZoCpkEeuS6fQGbcde_A" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_6b0siCpjEeuPgpCdv9L8mw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_BPqAlCs8Eeuk_JkTotyWlw" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_6b0siCpjEeuPgpCdv9L8mw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_7GZTcCpjEeuPgpCdv9L8mw" elementId="com.genuitec.eclipse.code.css" visible="false">
         <tags>Draggable</tags>
@@ -3322,7 +3328,7 @@
   <addons xmi:id="_6bac1SpjEeuPgpCdv9L8mw" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_6bac1ipjEeuPgpCdv9L8mw" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_6bhxgCpjEeuPgpCdv9L8mw" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_8ovagCpkEeuS6fQGbcde_A" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_IYS0IKimEeS11vbz3f9ezw" elementId="org.eclipse.ui.ide.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_dz0JgGOlEeSMMaPQU2nlzw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <categories xmi:id="_6bt-wCpjEeuPgpCdv9L8mw" elementId="org.eclipse.ui.category.edit" name="Edit"/>
   <categories xmi:id="_6bt-wSpjEeuPgpCdv9L8mw" elementId="org.eclipse.mylyn.wikitext.ui.editor.category" name="WikiText Markup Editing Commands" description="commands for editing lightweight markup"/>
