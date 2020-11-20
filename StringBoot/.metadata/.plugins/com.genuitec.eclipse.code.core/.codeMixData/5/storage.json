@@ -1,0 +1,14 @@
+{
+    "telemetry.machineId": "99441d0d2e661bb78b52dcf7310ee6c3400460b705fc32efd9bb65fe61f43cec",
+    "openedPathsList": {
+        "workspaces3": [
+            {
+                "id": "6291281e61275aa05152eb9da82c626e",
+                "configURIPath": "file:///e%3A/TMDT/StringBoot/.metadata/codemix.code-workspace"
+            }
+        ],
+        "files2": []
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#221a0f"
+}
