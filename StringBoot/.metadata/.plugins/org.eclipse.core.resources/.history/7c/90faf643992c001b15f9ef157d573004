@@ -1,0 +1,31 @@
+// Use IntelliSense to learn about possible attributes.
+// Hover to view descriptions of existing attributes.
+// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch courses.html",
+      "type": "chrome",
+      "request": "launch",
+      "port": 9275,
+      "webRoot": "${workspaceFolder}"
+    },
+    {
+      "name": "Launch Chrome 127.0.0.1",
+      "type": "chrome",
+      "request": "launch",
+      "port": 9214,
+      "webRoot": "${workspaceFolder}",
+      "url": "http://127.0.0.1:49516/p/SpringBootKhoaHoc/src/main/java/com/example/teamplate/courses.html?_cmAuth\u003dxpnnqgarez"
+    },
+    {
+      "name": "Launch Chrome 127.0.0.1 (1)",
+      "type": "chrome",
+      "request": "launch",
+      "port": 9269,
+      "webRoot": "${workspaceFolder}",
+      "url": "http://127.0.0.1:49516/p/SpringBootKhoaHoc/src/main/java/com/example/teamplate/editInformation.html?_cmAuth\u003dxpnnqgarez"
+    }
+  ]
+}

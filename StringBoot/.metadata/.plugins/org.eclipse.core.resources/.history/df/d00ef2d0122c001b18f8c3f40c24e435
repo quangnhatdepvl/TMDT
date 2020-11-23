@@ -1,0 +1,13 @@
+package repository;
+
+import org.springframework.data.repository.CrudRepository;
+
+import com.example.model.Course;
+
+import java.util.List;
+
+public interface CourseRepository extends CrudRepository<Course, String> {
+	  public List<Course> findByID(String id);
+	     
+	
+}

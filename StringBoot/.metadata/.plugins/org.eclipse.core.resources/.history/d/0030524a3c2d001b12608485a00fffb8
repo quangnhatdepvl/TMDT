@@ -1,0 +1,31 @@
+package com.example.model;
+
+import java.io.Serializable;
+import java.sql.Timestamp;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+@Entity
+@Table(name = "report")
+public class Report implements Serializable{
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -439709969517447265L;
+	@Id
+	@Column(name = "idReport", length = 250)
+	private String idReport;
+	@Column(name = "dateReport")
+	private Timestamp dateReport;
+	@Column(name = "content")
+	private String content;
+	@Column(name = "link")
+	private String link;
+	@Column(name = "money")
+	private int money;
+	
+
+}

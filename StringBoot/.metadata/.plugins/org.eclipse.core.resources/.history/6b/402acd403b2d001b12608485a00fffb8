@@ -1,0 +1,22 @@
+package com.example.model;
+
+import java.io.Serializable;
+import java.sql.Timestamp;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+@Entity
+@Table(name = "payment")
+public class Payment implements Serializable {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -8875304181036315262L;
+	private String idPayment;
+	private Timestamp datePayment;
+	private int cost;
+	
+	
+
+}

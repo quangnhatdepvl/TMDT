@@ -1,0 +1,29 @@
+package service;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.example.model.Course;
+
+import repository.CourseRepository;
+
+public class CourseServiceImpl  implements CourseService{
+	@Autowired private CourseRepository courseRepository;  
+	
+
+	@Override
+	public List<Course> getAllCourse() {
+		// TODO Auto-generated method stub
+		return (List<Course>) courseRepository.findAll();
+	}
+
+	@Override	@Override
+	public Optional<Course> findCourseById(String id) {
+		// TODO Auto-generated method stub
+		return courseRepository.findById(id);
+	}
+	
+
+}

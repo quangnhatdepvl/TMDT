@@ -1,0 +1,79 @@
+package com.example.model;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
+
+@Entity
+@Table(name = "course")
+public class Course {
+	@Id
+	private String idCourse;
+	@Column(name = "nameCourse")
+	private String nameCourse;
+	@Column(name = "type")
+	private String type;
+	@Column(name = "cost")
+	private int cost;
+	@Column(name = "content")
+	private String content;
+
+	public Course() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public Course(String idCourse, String nameCourse, String type, int cost, String content) {
+		super();
+		this.idCourse = idCourse;
+		this.nameCourse = nameCourse;
+		this.type = type;
+		this.cost = cost;
+		this.cotent = content;
+	}
+
+	public String getIdCourse() {
+		return idCourse;
+	}
+
+	public void setIdCourse(String idCourse) {
+		this.idCourse = idCourse;
+	}
+
+	public String getNameCourse() {
+		return nameCourse;
+	}
+
+	public void setNameCourse(String nameCourse) {
+		this.nameCourse = nameCourse;
+	}
+
+	public String getType() {
+		return type;
+	}
+
+	public void setType(String type) {
+		this.type = type;
+	}
+
+	public int getCost() {
+		return cost;
+	}
+
+	public void setCost(int cost) {
+		this.cost = cost;
+	}
+
+	public String getCotent() {
+		return cotent;
+	}
+
+	public void setCotent(String cotent) {
+		this.cotent = cotent;
+	}
+
+}
