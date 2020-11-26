@@ -27,22 +27,6 @@
 </head>
 
 <body>
-	 <table class="table table-active">  
-        <tr>  
-            <th>Name</th>  
-			<th>Email</th> 
-			 <th>Email</th>  
-            <th>Phone</th>  
-        </tr>  
-        <tr th:each="course : ${courses}">  
-            <td th:utext="${course.idCourse}">Name</td>  
-            <td th:utext="${course.nameCourse}">Email</td>  
-            <td th:utext="${course.cost}">Email</td>  
-            <td th:utext="${course.content}">  
-                
-            </td>  
-        </tr>  
-    </table>  
 	<div class="bg-top navbar-light">
 		<div class="container">
 			<div class="row no-gutters d-flex align-items-center align-items-stretch">
@@ -123,107 +107,8 @@
 
 	<section class="ftco-section">
 		<div class="container-fluid px-4">
-			<div class="row">
-				<div class="col-md-3 course ftco-animate">
-					<div class="img" style="background-image: url(images/course-1.jpg);"></div>
-					<div class="text pt-4">
-						<p class="meta d-flex">
-							<span><i class="icon-user mr-2"></i>Mr. Khan</span>
-							<span><i class="icon-table mr-2"></i>10 seats</span>
-							<span><i class="icon-calendar mr-2"></i>4 Years</span>
-						</p>
-						<h3><a href="#">Electric Engineering</a></h3>
-						<p>Separated they live in. A small river named Duden flows by their place and supplies it with
-							the necessary regelialia. It is a paradisematic country</p>
-						<p><a href="#" class="btn btn-primary">Apply now</a></p>
-					</div>
-				</div>
-				<div class="col-md-3 course ftco-animate">
-					<div class="img" style="background-image: url(images/course-2.jpg);"></div>
-					<div class="text pt-4">
-						<p class="meta d-flex">
-							<span><i class="icon-user mr-2"></i>Mr. Khan</span>
-							<span><i class="icon-table mr-2"></i>10 seats</span>
-							<span><i class="icon-calendar mr-2"></i>4 Years</span>
-						</p>
-						<h3><a href="#">Electric Engineering</a></h3>
-						<p>Separated they live in. A small river named Duden flows by their place and supplies it with
-							the necessary regelialia. It is a paradisematic country</p>
-						<p><a href="#" class="btn btn-primary">Apply now</a></p>
-					</div>
-				</div>
-				<div class="col-md-3 course ftco-animate">
-					<div class="img" style="background-image: url(images/course-3.jpg);"></div>
-					<div class="text pt-4">
-						<p class="meta d-flex">
-							<span><i class="icon-user mr-2"></i>Mr. Khan</span>
-							<span><i class="icon-table mr-2"></i>10 seats</span>
-							<span><i class="icon-calendar mr-2"></i>4 Years</span>
-						</p>
-						<h3><a href="#">Electric Engineering</a></h3>
-						<p>Separated they live in. A small river named Duden flows by their place and supplies it with
-							the necessary regelialia. It is a paradisematic country</p>
-						<p><a href="#" class="btn btn-primary">Apply now</a></p>
-					</div>
-				</div>
-				<div class="col-md-3 course ftco-animate">
-					<div class="img" style="background-image: url(images/course-4.jpg);"></div>
-					<div class="text pt-4">
-						<p class="meta d-flex">
-							<span><i class="icon-user mr-2"></i>Mr. Khan</span>
-							<span><i class="icon-table mr-2"></i>10 seats</span>
-							<span><i class="icon-calendar mr-2"></i>4 Years</span>
-						</p>
-						<h3><a href="#">Electric Engineering</a></h3>
-						<p>Separated they live in. A small river named Duden flows by their place and supplies it with
-							the necessary regelialia. It is a paradisematic country</p>
-						<p><a href="#" class="btn btn-primary">Apply now</a></p>
-					</div>
-				</div>
-
-				<div class="col-md-3 course ftco-animate">
-					<div class="img" style="background-image: url(images/course-5.jpg);"></div>
-					<div class="text pt-4">
-						<p class="meta d-flex">
-							<span><i class="icon-user mr-2"></i>Mr. Khan</span>
-							<span><i class="icon-table mr-2"></i>10 seats</span>
-							<span><i class="icon-calendar mr-2"></i>4 Years</span>
-						</p>
-						<h3><a href="#">Electric Engineering</a></h3>
-						<p>Separated they live in. A small river named Duden flows by their place and supplies it with
-							the necessary regelialia. It is a paradisematic country</p>
-						<p><a href="#" class="btn btn-primary">Apply now</a></p>
-					</div>
-				</div>
-				<div class="col-md-3 course ftco-animate">
-					<div class="img" style="background-image: url(images/course-6.jpg);"></div>
-					<div class="text pt-4">
-						<p class="meta d-flex">
-							<span><i class="icon-user mr-2"></i>Mr. Khan</span>
-							<span><i class="icon-table mr-2"></i>10 seats</span>
-							<span><i class="icon-calendar mr-2"></i>4 Years</span>
-						</p>
-						<h3><a href="#">Electric Engineering</a></h3>
-						<p>Separated they live in. A small river named Duden flows by their place and supplies it with
-							the necessary regelialia. It is a paradisematic country</p>
-						<p><a href="#" class="btn btn-primary">Apply now</a></p>
-					</div>
-				</div>
-				<div class="col-md-3 course ftco-animate">
-					<div class="img" style="background-image: url(images/course-7.jpg);"></div>
-					<div class="text pt-4">
-						<p class="meta d-flex">
-							<span><i class="icon-user mr-2"></i>Mr. Khan</span>
-							<span><i class="icon-table mr-2"></i>10 seats</span>
-							<span><i class="icon-calendar mr-2"></i>4 Years</span>
-						</p>
-						<h3><a href="#">Electric Engineering</a></h3>
-						<p>Separated they live in. A small river named Duden flows by their place and supplies it with
-							the necessary regelialia. It is a paradisematic country</p>
-						<p><a href="#" class="btn btn-primary">Apply now</a></p>
-					</div>
-				</div>
-				<div class="col-md-3 course ftco-animate">
+			<div class="row" >
+				<div class="col-md-3 course ftco-animate"  th:each="course : ${courses}">
 					<div class="img" style="background-image: url(images/course-8.jpg);"></div>
 					<div class="text pt-4">
 						<p class="meta d-flex">
@@ -231,7 +116,9 @@
 							<span><i class="icon-table mr-2"></i>10 seats</span>
 							<span><i class="icon-calendar mr-2"></i>4 Years</span>
 						</p>
-						<h3><a href="#">Electric Engineering</a></h3>
+						<h3><a href="#" th:utext="${course.nameCourse}">Electric Engineering</a></h3>
+						<h3><a href="#" th:utext="${course.cost}" style="color: red;">Electric Engineering</a></h3>
+						<h3><a href="#" th:utext="${course.type}">Electric Engineering</a></h3>
 						<p>Separated they live in. A small river named Duden flows by their place and supplies it with
 							the necessary regelialia. It is a paradisematic country</p>
 						<p><a href="#" class="btn btn-primary">Apply now</a></p>

@@ -9,6 +9,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "course")
+
 public class Course  implements Serializable{
 	/**
 	 * 
@@ -18,9 +19,9 @@ public class Course  implements Serializable{
 	 * 
 	 */
 		@Id
-	@Column(name = "idCourse", length = 250)
+	@Column(name = "idcourse", length = 250)
 	private String idCourse;
-	@Column(name = "nameCourse")
+	@Column(name = "namecourse")
 	private String nameCourse;
 	@Column(name = "type")
 	private String type;
